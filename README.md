@@ -24,5 +24,3 @@ The key features of Virtual Labs CMS include:
 | --------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | [User documnent](./docs/user-doc.md)          | A comprehensive documentation for users of Virtual Labs CMS                                       |
 | [Developer document](./docs/developer-doc.md) | A comprehensive development documentation for developers working on the Virtual Labs CMS project. |
-
----
