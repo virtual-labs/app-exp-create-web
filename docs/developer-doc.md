@@ -1,6 +1,6 @@
-# Virtual Labs CMS - Developer Document
+# Virtual Labs Content Development Platform - Developer Document
 
-This document serves as a guide for developers working on the Virtual Labs CMS project. It provides an overview of the project, development guidelines, and deployment instructions.
+This document serves as a guide for developers working on the Virtual Labs Content Development Platform project. It provides an overview of the project, development guidelines, and deployment instructions.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ This document serves as a guide for developers working on the Virtual Labs CMS p
 
 ## Introduction
 
-Virtual Labs CMS is a content management system designed for managing virtual laboratory experiments and simulations. It utilizes HTML, JavaScript, and CSS, along with the Netlify CMS and Font Awesome library.
+Virtual Labs Content Development Platform is a content management system designed for managing virtual laboratory experiments and simulations. It utilizes HTML, JavaScript, and CSS, along with the Netlify CMS and Font Awesome library.
 
 ## Design Decisions
 
@@ -44,12 +44,12 @@ These design decisions were made to enhance user engagement, provide intuitive n
 
 ## Project Setup
 
-- Clone the Virtual Labs CMS repository from the [GitHub repository](https://github.com/virtual-labs/app-exp-create-web) to your local development environment.
+- Clone the Virtual Labs Content Development Platform repository from the [GitHub repository](https://github.com/virtual-labs/app-exp-create-web) to your local development environment.
 - Set up your development environment according to your preferred IDE and tools.
 
 ## Directory Structure
 
-The directory structure of the Virtual Labs CMS project is as follows:
+The directory structure of the Virtual Labs Content Development Platform project is as follows:
 
 ```
 admin/
@@ -79,39 +79,39 @@ The directory structure provides a logical organization of the project's files a
 
 ### Admin Module
 
-The admin module handles the interface of Virtual Labs CMS. It includes the following files:
+The admin module handles the interface of Virtual Labs Content Development Platform. It includes the following files:
 
-- `/admin/index.html`: This file represents the HTML structure of the admin interface, providing the layout and structure for the CMS administration section.
+- `/admin/index.html`: This file represents the HTML structure of the admin interface, providing the layout and structure for the platform administration section.
 - `/admin/js/modal.js`: The `modal.js` file contains JavaScript code responsible for managing modal components within the admin module. It handles modal logic.
-- `/admin/js/mutation.js`: The `mutation.js` file implements JavaScript code that utilizes the `MutationObserver()` interface. It listens for changes in the DOM (Document Object Model) of Netlify CMS and applies cosmetic changes to enhance the visual appearance and user experience of the CMS interface.
+- `/admin/js/mutation.js`: The `mutation.js` file implements JavaScript code that utilizes the `MutationObserver()` interface. It listens for changes in the DOM (Document Object Model) of Netlify CMS and applies cosmetic changes to enhance the visual appearance and user experience of the platform interface.
 
 - `/admin/js/config.js`: Contains configuration settings for the Netlify CMS.
 
 ### CSS Module
 
-The CSS module includes the CSS styles specific to Virtual Labs CMS. It consists of the following files:
+The CSS module includes the CSS styles specific to Virtual Labs Content Development Platform. It consists of the following files:
 
-- `/css/admin.css`: The `admin.css` file contains CSS styles specific to the admin interface of Virtual Labs CMS, defining the visual layout, typography, and colors related to the CMS.
+- `/css/admin.css`: The `admin.css` file contains CSS styles specific to the admin interface of Virtual Labs CMS, defining the visual layout, typography, and colors related to the platform.
 - `/css/help.css`: The `help.css` file includes CSS styles for the help and documentation section of Virtual Labs CMS, defining the presentation of user guides, documentation pages, and help resources.
 - `/css/style.css`: The `style.css` file holds CSS styles applicable to Home/Landing page.
 
 ### Help Module
 
-The help module provides the documentation and [help resources](https://virtual-labs-cms.netlify.app/help/) for Virtual Labs CMS. It includes the following files:
+The help module provides the documentation and [help resources](https://virtual-labs-cms.netlify.app/help/) for Virtual Labs Content Development Platform. It includes the following files:
 
-- `/help/index.html`: The `index.html` file serves as the entry point for the help and documentation section of Virtual Labs CMS, providing the structure and layout for accessing user guides, tutorials, and other help resources.
+- `/help/index.html`: The `index.html` file serves as the entry point for the help and documentation section of Virtual Labs Content Development Platform, providing the structure and layout for accessing user guides, tutorials, and other help resources.
 - `/help/help-data.js`: The `help-data.js` file contains JavaScript code that manages the data and functionality related to the help and documentation section, such as loading and rendering help content dynamically.
-- `/help/markdown/`: This directory holds the Markdown files representing the user guides, tutorials, and documentation for Virtual Labs CMS. Each Markdown file covers a specific topic or aspect of the CMS, providing detailed instructions and explanations.
+- `/help/markdown/`: This directory holds the Markdown files representing the user guides, tutorials, and documentation for Virtual Labs Content Development Platform. Each Markdown file covers a specific topic or aspect of the platform, providing detailed instructions and explanations.
 
 ### Other Modules
 
-- `/docs/`: This directory contains Markdown files representing the user and developer documentation for Virtual Labs CMS. It provides detailed instructions on deploying, configuring, and using the CMS.
+- `/docs/`: This directory contains Markdown files representing the user and developer documentation for Virtual Labs Content Development Platform. It provides detailed instructions on deploying, configuring, and using the platform.
 
-- `/images/`: This directory holds various images used within the Virtual Labs CMS application, such as logos, icons, and visual assets.
+- `/images/`: This directory holds various images used within the platform application, such as logos, icons, and visual assets.
 
 - `/js/script.js`: The `script.js` file contains general-purpose JavaScript code used in functionality and interactions for Home/Landing page.
 
-These modules collectively contribute to the functionality, styling, and user experience of Virtual Labs CMS. The organization of code into separate modules promotes modularity, reusability, and maintainability.
+These modules collectively contribute to the functionality, styling, and user experience of Virtual Labs Content Development Platform. The organization of code into separate modules promotes modularity, reusability, and maintainability.
 
 ## Coding Conventions
 
@@ -124,11 +124,11 @@ Any commit to `master` branch of this repository will automatically re-deploy si
 
 ## Deployment
 
-Virtual Labs CMS is deployed on Netlify along with GitHub OAuth, following these steps:
+Virtual Labs Content Development Platform is deployed on Netlify along with GitHub OAuth, following these steps:
 
 1. Deploy on Netlify:
 
-   - Virtual Labs CMS is deployed on Netlify, a popular hosting platform for static websites.
+   - Virtual Labs Content Development Platform is deployed on Netlify, a popular hosting platform for static websites.
    - The deployed site is accessible at the following domain: [https://virtual-labs-cms.netlify.app/](https://virtual-labs-cms.netlify.app/).
 
 2. Set up OAuth with GitHub:
@@ -146,9 +146,9 @@ Virtual Labs CMS is deployed on Netlify along with GitHub OAuth, following these
    - Paste the Client ID and Client Secret generated from the GitHub OAuth application registration into the respective fields.
    - Click on "Install" to enable the GitHub OAuth provider.
 
-4. Access Virtual Labs CMS:
-   - After completing the deployment and OAuth setup, you can access the Virtual Labs CMS by visiting your Netlify deployment URL (e.g., `https://virtual-labs-cms.netlify.app/`).
-   - Follow the provided login instructions using the GitHub OAuth provider to access the CMS interface.
+4. Access Virtual Labs Content Development Platform:
+   - After completing the deployment and OAuth setup, you can access the Virtual Labs Content Development Platform by visiting your Netlify deployment URL (e.g., `https://virtual-labs-cms.netlify.app/`).
+   - Follow the provided login instructions using the GitHub OAuth provider to access the platform's interface.
 
 ## Future Updates and Features
 
