@@ -20,7 +20,7 @@ This document serves as a guide for developers working on the Virtual Labs Conte
 
 ## Introduction
 
-Virtual Labs Content Development Platform is a content management system designed for managing virtual laboratory experiments and simulations. It utilizes HTML, JavaScript, and CSS, along with the Netlify CMS and Font Awesome library.
+Virtual Labs Content Development Platform is a content management system built over Netlify CMS designed for managing virtual laboratory experiments and simulations. It utilizes HTML, JavaScript, and CSS, along with the Netlify CMS and Font Awesome library.
 
 ## Design Decisions
 
