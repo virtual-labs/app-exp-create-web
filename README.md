@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Virtual Labs Content Development Platform is a web-based Content Management System designed to facilitate the creation of virtual experiments. It offers a user-friendly interface that eliminates the need for users to have prior knowledge of Git and Markdown. With this platform, experiment creators can easily build and manage virtual experiments while having the convenience of seamless deployment as it gives an online option to develop experiments which does not require any downloads or local setup.
+The Virtual Labs Content Development Platform is a web-based Content Management System built over Netlify CMS designed to facilitate the creation of virtual experiments. It offers a user-friendly interface that eliminates the need for users to have prior knowledge of Git and Markdown. With this platform, experiment creators can easily build and manage virtual experiments while having the convenience of seamless deployment as it gives an online option to develop experiments which does not require any downloads or local setup.
 
 ## Target Audience
 
