@@ -1,16 +1,16 @@
-# User Document - Virtual Labs CMS
+# User Document - Virtual Labs Content Development Platform
 
 ## Overview
 
-Virtual Labs CMS is a web-based Content Management System (CMS) designed to facilitate the creation of virtual experiments. This user document provides instructions on how to use the Virtual Labs CMS effectively.
+Virtual Labs Content Development Platform is a web-based Content Management System (CMS) designed to facilitate the creation of virtual experiments. This user document provides instructions on how to use the Virtual Labs Content Development Platform effectively.
 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-  - [Creating an Experiment](#creating-an-experiment-repository)
-  - [Modifying an Experiment](#modifying-an-experiment-repository)
-- [Using the Virtual Labs CMS](#using-the-virtual-labs-cms)
-  - [Modifying Experiment Components](#creating-experiment-components)
+  - [Creating an Experiment](#creating-an-experiment)
+  - [Modifying an Experiment](#modifying-an-experiment)
+- [Using the Virtual Labs Content Development Platform](#using-the-virtual-labs-Content Development Platform)
+  - [Modifying Experiment Components](#modifying-experiment-components)
   - [Uploading Simulation Files](#uploading-simulation-files)
 - [Known Limitations](#known-limitations)
 - [Troubleshooting](#troubleshooting)
@@ -21,7 +21,7 @@ To begin using [Virtual Labs CMS](<(https://virtual-labs-cms.netlify.app/)>), fo
 
 ### Creating an Experiment
 
-1. Visit the Virtual Labs CMS landing page.
+1. Visit the Virtual Labs Content Development Platform landing page.
 2. In the navigation bar, click on the "Create" tab.
 3. Read the instructions provided on the [page](https://virtual-labs-cms.netlify.app/).
 
@@ -39,19 +39,19 @@ To begin using [Virtual Labs CMS](<(https://virtual-labs-cms.netlify.app/)>), fo
 
 ### Modifying an Experiment
 
-1. On the Virtual Labs CMS landing page, click on the "Modify" tab in the navigation bar.
+1. On the Virtual Labs Content Development Platform landing page, click on the "Modify" tab in the navigation bar.
 2. In the form, enter the organisation name and the experiment repository name.
 3. Click the "Modify" button.
 4. Authenticate yourself using your GitHub account credentials.
 5. After authentication, you will be redirected to content management page.
 
-## Using the Virtual Labs CMS
+## Using the Virtual Labs Content Development Platform
 
-This section describes the key features and functionalities of the Virtual Labs CMS. For additional guidance, click on the "i" icon located in the bottom right corner of the page to access the help document.
+This section describes the key features and functionalities of the Virtual Labs Content Development Platform. For additional guidance, click on the "i" icon located in the bottom right corner of the page to access the help document.
 
 ### Modifying Experiment Components
 
-The Virtual Labs CMS provides two editors to create experiment components: Markdown editor and rich text editor. Follow these steps to create experiment components:
+The Virtual Labs Content Development Platform provides two editors to create experiment components: Markdown editor and rich text editor. Follow these steps to create experiment components:
 
 1. Navigate to the specific component you want to edit, such as Aim, Theory, etc.
 2. Choose the Markdown editor or the rich text editor to write and structure the content.
@@ -72,7 +72,7 @@ To incorporate interactive simulations into your experiments, you can upload sim
 
 ## Troubleshooting
 
-If you encounter any issues while using Virtual Labs CMS, consider the following troubleshooting steps:
+If you encounter any issues while using Virtual Labs Content Development Platform, consider the following troubleshooting steps:
 
 - **Deployment to GitHub Pages:** If an experiment is not getting deployed to GitHub Pages, kindly check that the Secret Token is placed correctly. Refer to the [Secret Token documentation](https://virtual-labs-cms.netlify.app/#secret) for guidance on configuring the Secret Token.
 
