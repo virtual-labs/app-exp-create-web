@@ -9,7 +9,7 @@ Virtual Labs Content Development Platform is a web-based Content Management Syst
 - [Getting Started](#getting-started)
   - [Creating an Experiment](#creating-an-experiment)
   - [Modifying an Experiment](#modifying-an-experiment)
-- [Using the Virtual Labs Content Development Platform](#using-the-virtual-labs-Content Development Platform)
+- [Using the Virtual Labs Content Development Platform](#using-the-virtual-labs-content-development-platform)
   - [Modifying Experiment Components](#modifying-experiment-components)
   - [Uploading Simulation Files](#uploading-simulation-files)
 - [Known Limitations](#known-limitations)
