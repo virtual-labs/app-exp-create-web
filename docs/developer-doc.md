@@ -151,6 +151,7 @@ Virtual Labs Content Development Platform is deployed on Netlify along with GitH
    - Follow the provided login instructions using the GitHub OAuth provider to access the platform's interface.
 
 ## Future Updates and Features
+Outlined here are the forthcoming releases, each presenting a progression of enhancements and new features designed to elevate the overall user experience
 
 - Integration of an IDE for managing and coding simulations in web interface without dependence on local system.
 
