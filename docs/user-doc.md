@@ -19,7 +19,7 @@ Virtual Labs Content Development Platform is a web-based Content Management Syst
 
 To begin using [Virtual Labs CMS](<(https://virtual-labs-cms.netlify.app/)>), follow the instructions below.
 
-### Creating an Experiment
+## Creating an Experiment
 
 1. Visit the Virtual Labs Content Development Platform landing page.
 2. In the navigation bar, click on the "Create" tab.
@@ -37,7 +37,7 @@ To begin using [Virtual Labs CMS](<(https://virtual-labs-cms.netlify.app/)>), fo
 
 4. Once you have created the experiment repository, proceed to the next section for modifying the experiment.
 
-### Modifying an Experiment
+## Modifying an Experiment
 
 1. On the Virtual Labs Content Development Platform landing page, click on the "Modify" tab in the navigation bar.
 2. In the form, enter the organisation name and the experiment repository name.
@@ -49,7 +49,7 @@ To begin using [Virtual Labs CMS](<(https://virtual-labs-cms.netlify.app/)>), fo
 
 This section describes the key features and functionalities of the Virtual Labs Content Development Platform. For additional guidance, click on the "i" icon located in the bottom right corner of the page to access the help document.
 
-### Modifying Experiment Components
+## Modifying Experiment Components
 
 The Virtual Labs Content Development Platform provides two editors to create experiment components: Markdown editor and rich text editor. Follow these steps to create experiment components:
 
@@ -57,7 +57,7 @@ The Virtual Labs Content Development Platform provides two editors to create exp
 2. Choose the Markdown editor or the rich text editor to write and structure the content.
 3. Save your changes to update the experiment component.
 
-### Uploading Simulation Files
+## Uploading Simulation Files
 
 To incorporate interactive simulations into your experiments, you can upload simulation files. Please note that only single file uploads are supported. Follow these steps to upload a simulation file:
 
