@@ -17,7 +17,7 @@ Virtual Labs Content Development Platform is a web-based Content Management Syst
 
 ## Getting Started
 
-To begin using [Virtual Labs CMS](<(https://virtual-labs-cms.netlify.app/)>), follow the instructions below.
+To begin using [Virtual Labs CMS](https://virtual-labs-cms.netlify.app/), follow the instructions below.
 
 ## Creating an Experiment
 
